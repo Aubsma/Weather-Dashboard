@@ -1,0 +1,30 @@
+body {
+    background-color: #9FE1E5;
+}
+
+.bg-dark{
+    padding: 10rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+#search-term{
+  font-size: 30px;
+  border-radius: 10rem;
+}
+
+.btn{
+  border-radius: 22px;
+  padding: 10px;
+  width: 8rem;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  border: darkslategray;
+}
+
+.btn:hover{
+  background-color:rgba(255, 255, 255, 0.5)
+}
