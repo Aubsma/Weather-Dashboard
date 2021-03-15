@@ -214,6 +214,7 @@ function listArray() {
         searchHistoryItem.attr("data-value", city);
         searchHistoryItem.text(city);
         searchHistoryList.prepend(searchHistoryItem);
+        
     });
     // Update city list history in local storage
     localStorage.setItem("cities", JSON.stringify(cityList));
